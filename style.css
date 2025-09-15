@@ -76,7 +76,10 @@ li {
 }
 
 
-
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 /* SECTION PART */
 
@@ -112,4 +115,10 @@ span {
 .big-para {
     font-size: 1.8rem;
     font-weight: 300;
+}
+
+.hero-images {
+
+    width: 50vw;
+    height: 20rem;
 }
