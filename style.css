@@ -8,6 +8,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Jost", sans-serif;
+    border-width: .1rem;
+
 }
 
 .flex {
@@ -33,6 +35,14 @@
     max-width: 1450px;
     margin: auto;
     padding-inline: 2rem;
+}
+
+.golden-bg {
+    background: var(--golden-hour);
+}
+
+.brown-bg {
+    background: var(--antiueq-brown);
 }
 
 /* navigation */
@@ -63,4 +73,43 @@ li {
     font-size: 1.5rem;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+
+
+
+/* SECTION PART */
+
+.hero-section {
+    height: calc(100vh - 12vh);
+    justify-content: center;
+}
+
+.h1-heading {
+    font-size: 9rem;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+.btn {
+    padding: .7rem 2rem;
+    font-size: .9rem;
+    color: var(--white);
+    border-radius: 5rem;
+    display: flex;
+    justify-self: flex-end;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: var(--black);
+}
+
+span {
+    font-weight: bold;
+}
+
+.big-para {
+    font-size: 1.8rem;
+    font-weight: 300;
 }
