@@ -1,0 +1,66 @@
+/* for google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Sans:ital,wght@0,300..900;1,300..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* BASIC STYLING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+/* for color */
+:root {
+    --black: #000;
+    --white: #fff;
+    --gray: #f4f4f4;
+    --golden-hour: #f1b555;
+    --antiueq-brown: #9b281a;
+}
+
+
+.wrapper {
+    max-width: 1450px;
+    margin: auto;
+    padding-inline: 2rem;
+}
+
+/* navigation */
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+li {
+    list-style: none;
+}
+
+
+.navigation {
+    height: 12vh;
+}
+
+.nav-icons {
+    gap: 1.5rem;
+}
+
+.icon {
+    font-size: 1.1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
